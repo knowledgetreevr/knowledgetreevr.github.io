@@ -1,1 +1,59 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Knowledge Tree VR
+email: drc@rug.nl
+url: https://knowledgetreevr.github.io
+description: "The Knowledge Tree VR project aims to develop the library of the future, promoting open access literature in liberal arts and sciences at your fingertip and make it accessible as a tree of knowledge to kids, students and researchers."
+keywords: 
+skills: 
+meta_author: Daniel Feitosa
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  header: f5f5f5 #fafafa
+  primary: 1dabe8 #18bc9c #80B3FF
+  primary-rgb: "29,171,232" #"24,188,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Knowledge Tree VR
+  location: Contact
+  partners: Partners
+  # social: Around the Web
+  # credits: Credits
+
+partners:
+  - logo: img/partners/drc.png
+    url: https://www.rug.nl/cf/onderzoek/data-research-centre
+  - logo: img/partners/microsoft.png
+    url: https://www.microsoft.com/nl-nl
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# social:
+#   - title: twitter
+#     url: http://twitter.com/<user>
+#   - title: facebook
+#     url:
+#   - title: stack-overflow
+#     url: http://stackoverflow.com/questions/tagged/<topic>
+#   - title: github
+#     url: http://github.com/<user>
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: drc@rug.nl
+  # - line: 
+
+# Credits content
+# credits: ''
+
+# Build settings
+markdown: kramdown
+permalink: pretty
